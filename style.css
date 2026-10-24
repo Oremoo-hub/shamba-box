@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f5ed;
+    color: #1a4e29;
+    padding: 20px 5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-circle {
+    background-color: #27834a;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.hero {
+    background-color: #246b40;
+    color: white;
+    padding: 60px 40px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f0c879;
+    color: #243b2b;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ffdda0;
+}
+
+/* 7. CONTENT SECTIONS */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+
+footer {
+    
+    padding: 25px;
+    color: #657465;
+}
+
+
+
+button{
+    border-radius:38% 38% 38% 38% ;
+    padding: 3%;
+    border: none;
+    background-color: #dce964;
+    color:rgb(15, 56, 15) ;
+    font-family:Verdana;
+}
+.btn{
+    
+    border-radius:4% ;
+}
+.steps{
+    justify-content: space-around;
+    display: flex;
+}
+.one{
+    width: 32%;
+    border: #1a4e29; 
+    border: 2px solid black;  
+    padding: 3%;
+    gap: inherit;
+    box-shadow: #1a4e29; 
+    border-radius: 10% 10% 10% 10%;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+}
+#header{
+    padding: 5%;
+}
+.set{
+    background-color: #deae4f;
+    color: rgba(52, 44, 38, 0.872) ;
+    padding: 10%;
+    border-bottom: 3px solid rgb(11, 63, 11);
+}
+#green{
+    float: right;
+    background-color: #1a4e29;
+    color: whitesmoke;
+}
+.pic{
+    display: grid;
+     display: grid;
+   grid-template-columns: auto auto;
+    gap: 20px;
+    
+}
+.hero{
+    display:flex;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+     width: 150px;
+    height: 150px;
+    
+
+}
+
+
+.ty {
+    text-align: end;
+}
